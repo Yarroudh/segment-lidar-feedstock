@@ -13,7 +13,7 @@ build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   number: 3
-  skip: true
+  skip: True
 
 requirements:
   host:
